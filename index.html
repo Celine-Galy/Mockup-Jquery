@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta lang="fr" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="jquery.css" />
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav>
+      <li id="btnPerso">Personnages</li>
+      <li id="btnEpisode">Episodes</li>
+      <li id="btnCitation">Citations</li>
+    </nav>
+    <div id="container">
+      <section id="sectionActeur">
+        
+        <input class="rechPerso"
+          type="text"
+          id="searchPerso"
+          name="searchPerso"
+          placeholder="Recherche"
+        />
+        
+      </section>
+      <section id="sectionAffichagePerso" class='hidden'>
+
+      </section>
+
+
+      <section id="sectionEpisode" class="hidden">
+        
+        <input class="rechEpisode"
+          type="text"
+          id="searchEpisode"
+          name="searchEpisode"
+          placeholder="Recherche"
+        />
+       
+      </section>
+
+
+      <section id="sectionCitation" class="hidden">
+        
+        <div id="dayQuote" class="dayQuote"></div>
+        <select id="select">
+          <option>Sélectionnez un personnage</option>
+        </select>
+        <div id="quoteList"></div>
+      </section>
+    </div>
+
+    <!-- <script src="main.js"></script> -->
+    <script src="jquery.js"></script>
+  </body>
+</html>

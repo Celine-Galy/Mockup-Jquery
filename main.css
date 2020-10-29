@@ -1,0 +1,128 @@
+body {
+    width: 100vw;
+    background-image: url('wood-1759566_1920.jpg');
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    padding-top: 3%;
+    margin-bottom: 2%;
+    border-bottom: 1px solid salmon;
+    background-color: #ffffff;
+    color: #000000;
+}
+img {
+    
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+}
+li {
+    width: 20%;
+    text-align: center;
+    list-style: none;
+}
+li:hover {
+    cursor: pointer;
+}
+section {
+    margin-top: 10%;
+    
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        width: 100vw;
+        margin: 0;
+    
+    
+}
+.vignette {
+    width: 30vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1%;
+    border: 1px solid #ffffff;
+   
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3%;
+    
+}
+.listeEpisode {
+    font-size: 12px;
+    font-weight: normal;
+    width: 50%;
+    margin-left: 1%;
+    
+
+}
+.listePerso {
+    font-size: 12px;
+    font-weight: normal;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+
+}
+.dayQuote {
+    width: 30%;
+    min-height: 10vh;
+    text-align: center;
+    margin: 20px auto;
+    border: 1px solid #ffffff;
+    margin-bottom: 3%;
+    padding: 2%;
+}
+#quoteList div {
+    margin-top: 2%;
+    width: 45%;
+    height: 20vh;
+    
+   
+}
+#quoteList {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+}
+.episodeContainer {
+    width: 42%;
+    border: 1px solid #ffffff;
+    margin: 3% auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+}
+.episodeContainer h3 {
+    text-align: center;
+}
+.episode {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.red {
+    color: red;
+}
+.hidden {
+    display: none;
+}
